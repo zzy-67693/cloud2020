@@ -1,16 +1,3 @@
-﻿spring
-  profiles:
-    active:
-      - dev
----
-spring
-  profiles: dev 
-  application:
-     name: microservicecloud-config-it-dev
----
-spring
-  profiles:test
-  application:
-     name: microservicecloud-config-it-test
-   
+﻿config:
+  info: master branch.cloud2020/config-dev.yml version=1
  
